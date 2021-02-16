@@ -1,0 +1,33 @@
+
+*{
+    background-color: black;
+}
+
+li:hover{
+ color:green;
+}
+
+#droga:hover{
+    color:green;
+}
+
+#morfeus{
+    width: 175px;
+    height: 175px;
+    position: relative;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: 40%;
+    margin-bottom: 10%;
+    bottom: 0;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
